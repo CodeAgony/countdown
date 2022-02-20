@@ -1,10 +1,9 @@
 <script>
-	export let name;
+	export let diff;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>{diff} days left till the big day</h1>
 </main>
 
 <style>
