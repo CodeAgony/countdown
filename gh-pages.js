@@ -2,7 +2,7 @@
 import { publish } from 'gh-pages';
 
 publish(
- 'build',
+ 'public',
  {
   branch: 'gh-pages',
   repo: 'https://github.com/CodeAgony/countdown.git',
